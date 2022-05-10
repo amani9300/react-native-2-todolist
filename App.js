@@ -29,16 +29,13 @@ export default function App() {
         <Text style={styles.sectionTitle}>Today's tasks</Text>
         {/* liste des tasks */}
         <ScrollView>
-          <Task />
-          <Task />
-          <Task />
-          <Task />
-          <Task />
-          <Task />
-          <Task />
-          <Task />
-          <Task />
-          <Task />
+          <Task text='Finir le cours' />
+          <Task text='Manger'/>
+          <Task text='Dormir'/>
+          <Task text='Etudier'/>
+          <Task text='Faire du sport'/>
+          <Task text='Regarder youtube'/>
+         
         </ScrollView>
       </View>
 
